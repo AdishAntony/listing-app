@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Tile from './Tile';
 import InfiniteScroll from "react-infinite-scroller";
 import Grid from '@mui/material/Grid';
@@ -12,9 +12,6 @@ const PageContent = (props) => {
     };
 
     const [spacing, setSpacing] = React.useState(2);
-    const jsx = `
-                <Grid container spacing={${spacing}}>
-                `;
     return (
         <>
             <InfiniteScroll

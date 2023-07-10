@@ -10,7 +10,6 @@ const Page = (props) => {
     const dispatch = useDispatch();
     const data = useSelector((state) => state.pageReducer);
     let [filterText, setFilterText] = useState('');
-    let [pageCount, setPageCount] = useState(1);
     const defaultItemsPerPageCount = 20;
 
     // Initial rendering

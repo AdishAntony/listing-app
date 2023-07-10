@@ -6,14 +6,16 @@ import Typography from '@mui/material/Typography';
 
 const Tile = (props) => {
     let [loaded, setLoaded] = useState(false);
+    let [imageStyle, setImageStyle] = useState({ maxWidth: '150px', maxHeight: '160px' });
     const handleImageLoad = () => {
         setLoaded(true);
+        setImageStyle({ maxWidth: '150px', maxHeight: '160px' });
     }
     const onError = () => {
         setLoaded(false);
+        setImageStyle({ display: 'none' });
     }
 
-    const imageStyle = !loaded ? { hidden: true } : { maxWidth: '150px', maxHeight: '160px' };
     return (
         <>
             <div>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/listing-app-gh-page/static/css/main.7e4fe465.css",
+    "main.js": "/listing-app-gh-page/static/js/main.a36cb26e.js",
+    "static/js/294.e29ac73c.chunk.js": "/listing-app-gh-page/static/js/294.e29ac73c.chunk.js",
+    "static/js/787.1c92f91a.chunk.js": "/listing-app-gh-page/static/js/787.1c92f91a.chunk.js",
+    "static/media/logo.svg": "/listing-app-gh-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/listing-app-gh-page/index.html",
+    "main.7e4fe465.css.map": "/listing-app-gh-page/static/css/main.7e4fe465.css.map",
+    "main.a36cb26e.js.map": "/listing-app-gh-page/static/js/main.a36cb26e.js.map",
+    "294.e29ac73c.chunk.js.map": "/listing-app-gh-page/static/js/294.e29ac73c.chunk.js.map",
+    "787.1c92f91a.chunk.js.map": "/listing-app-gh-page/static/js/787.1c92f91a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e4fe465.css",
+    "static/js/main.a36cb26e.js"
+  ]
+}

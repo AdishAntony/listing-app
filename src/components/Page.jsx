@@ -39,7 +39,7 @@ const Page = (props) => {
     return (
         <>
             <PageHead title={data.title || props.defaultTitle} filterData={filterData} />
-            <div style={{ marginTop: '25px' }}>
+            <div style={{ marginTop: '70px' }}>
                 <Suspense fallback={<div>isLoading...</div>}>
                     <PageContent content={filterDataAndPass(data.content)} loadMore={loadMore} />
                 </Suspense>

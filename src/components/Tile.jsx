@@ -7,11 +7,9 @@ import Typography from '@mui/material/Typography';
 const Tile = (props) => {
     let [loaded, setLoaded] = useState(false);
     const handleImageLoad = () => {
-        console.log("asd inside handleImageLoad");
         setLoaded(true);
     }
     const onError = () => {
-        console.log("asd inside handleImageLoad");
         setLoaded(false);
     }
 

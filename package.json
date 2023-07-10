@@ -1,7 +1,7 @@
 {
   "name": "diagnal-listing-app",
   "version": "0.1.0",
-  "homepage": "https://AdishAntony.github.io/listing-app-gh-page",
+  "homepage": "https://AdishAntony.github.io/listing-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
